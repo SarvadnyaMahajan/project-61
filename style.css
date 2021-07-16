@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: linear-gradient (#c242f5 146,#42aaf5 57);
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+img {
+  width: 350px;
+  height: 350px;
+}
+.menu {
+
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+}
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
